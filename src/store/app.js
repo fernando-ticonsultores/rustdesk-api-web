@@ -23,7 +23,7 @@ export const useAppStore = defineStore({
   id: 'App',
   state: () => ({
     setting: {
-      title: 'Soporte Remoto Colegio Alexander Fleming',
+      title: 'Colegio Alexander Fleming',
       hello: '',
       sideIsCollapse: false,
       logo,
