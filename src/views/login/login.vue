@@ -174,14 +174,14 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(135deg, #F0F4F9 0%, #ffffff 50%, #F0F4F9 100%);
+  background: #F0F4F9;
   padding: 20px;
   box-sizing: border-box;
 }
 
 .login-card {
   width: 360px;
-  background: linear-gradient(160deg, #FFFFFF 0%, #f7f9fc 50%, #FFFFFF 100%);
+  background: #FFFFFF;
   padding: 40px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -192,6 +192,7 @@ h1 {
   margin-bottom: 20px;
   font-size: 24px;
   font-weight: bold;
+  color: #042351;
 }
 
 .login-form {
@@ -280,17 +281,19 @@ h1 {
 
 .el-form-item {
   ::v-deep(.el-form-item__label) {
-    color: #fff;
+    color: #042351;
+    font-weight: bold;
   }
 
   .el-input {
     ::v-deep(.el-input__wrapper) {
-      border: 1px solid rgba(255, 255, 255, 0.1);
+      border: 1px solid #042351;
       background: transparent;
     }
 
     ::v-deep(input) {
-      color: #fff;
+      color: #042351;
+      font-weight: bold;
     }
   }
 }

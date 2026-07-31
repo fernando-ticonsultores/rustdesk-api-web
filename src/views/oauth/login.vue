@@ -65,13 +65,13 @@
 .oauth {
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(135deg, #F0F4F9 0%, #ffffff 50%, #F0F4F9 100%);
+  background: #F0F4F9;
   padding-top: 25vh;
   box-sizing: border-box;
 
   .card {
     max-width: 500px;
-    background: linear-gradient(160deg, #FFFFFF 0%, #f7f9fc 50%, #FFFFFF 100%);
+    background: #FFFFFF;
     color: #042351;
     border: none;
     margin: 0 auto;
@@ -83,7 +83,8 @@
       margin-bottom: 50px;
 
       ::v-deep(.el-form-item__label) {
-        color: #fff;
+        color: #042351;
+        font-weight: bold;
       }
     }
 
