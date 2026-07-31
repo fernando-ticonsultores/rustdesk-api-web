@@ -2,6 +2,10 @@
   <div class="login-container">
     <div class="login-card">
       <img src="@/assets/logo.png" alt="logo" class="login-logo"/>
+      <div class="login-brand">
+        <div class="login-brand-title">Soporte Remoto</div>
+        <div class="login-brand-subtitle">Colegio Alexander Fleming</div>
+      </div>
 
       <el-form v-if="!disablePwd" label-position="top" class="login-form">
         <el-form-item :label="T('Username')">
@@ -277,6 +281,24 @@ h1 {
   height: 80px;
   margin: 0 auto 20px;
   display: block;
+}
+
+.login-brand {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.login-brand-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #042351;
+  line-height: 1.3;
+}
+
+.login-brand-subtitle {
+  font-size: 14px;
+  color: #888;
+  margin-top: 4px;
 }
 
 .el-form-item {

@@ -23,7 +23,7 @@ export const useAppStore = defineStore({
   id: 'App',
   state: () => ({
     setting: {
-      title: 'Rustdesk API Admin',
+      title: 'Soporte Remoto Colegio Alexander Fleming',
       hello: '',
       sideIsCollapse: false,
       logo,

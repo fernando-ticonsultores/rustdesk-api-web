@@ -2,6 +2,11 @@
   <div class="login-container">
     <div class="login-card">
       <img src="@/assets/logo.png" alt="logo" class="login-logo"/>
+      <div class="login-brand">
+        <div class="login-brand-title">Soporte Remoto</div>
+        <div class="login-brand-subtitle">Colegio Alexander Fleming</div>
+      </div>
+
       <el-form ref="f" :model="form" label-position="top" class="login-form" :rules="rules">
         <el-form-item :label="T('Username')" prop="username">
           <el-input v-model="form.username" class="login-input"></el-input>
@@ -139,19 +144,39 @@ h1 {
   display: block;
 }
 
+.login-brand {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.login-brand-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #042351;
+  line-height: 1.3;
+}
+
+.login-brand-subtitle {
+  font-size: 14px;
+  color: #888;
+  margin-top: 4px;
+}
+
 .el-form-item {
   ::v-deep(.el-form-item__label) {
-    color: #fff;
+    color: #042351;
+    font-weight: bold;
   }
 
   .el-input {
     ::v-deep(.el-input__wrapper) {
-      border: 1px solid rgba(255, 255, 255, 0.1);
+      border: 1px solid #042351;
       background: transparent;
     }
 
     ::v-deep(input) {
-      color: #fff;
+      color: #042351;
+      font-weight: bold;
     }
   }
 }
