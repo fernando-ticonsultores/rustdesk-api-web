@@ -95,14 +95,14 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(135deg, #708CCE 0%, #8aa3d8 50%, #708CCE 100%);
+  background: linear-gradient(135deg, #F0F4F9 0%, #ffffff 50%, #F0F4F9 100%);
   padding: 20px;
   box-sizing: border-box;
 }
 
 .login-card {
   width: 360px;
-  background: linear-gradient(160deg, #D2D9EE 0%, #e0e6f5 50%, #D2D9EE 100%);
+  background: linear-gradient(160deg, #FFFFFF 0%, #f7f9fc 50%, #FFFFFF 100%);
   padding: 40px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

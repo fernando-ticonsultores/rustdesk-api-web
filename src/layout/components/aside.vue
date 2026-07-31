@@ -15,6 +15,6 @@
 
 <style scoped lang="scss">
 .scroll-sidebar {
-  background: linear-gradient(180deg, #708CCE 0%, #8aa3d8 100%);
+  background: linear-gradient(180deg, #0B57CE 0%, #2570db 100%);
 }
 </style>
