@@ -71,14 +71,14 @@
 .oauth {
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(135deg, #042351 0%, #0a3a6e 50%, #042351 100%);
+  background: linear-gradient(135deg, #708CCE 0%, #8aa3d8 50%, #708CCE 100%);
   padding-top: 25vh;
   box-sizing: border-box;
 
   .card {
     max-width: 500px;
-    background: linear-gradient(160deg, #CC865D 0%, #d49e75 50%, #CC865D 100%);
-    color: #fff;
+    background: linear-gradient(160deg, #D2D9EE 0%, #e0e6f5 50%, #D2D9EE 100%);
+    color: #042351;
     border: none;
     margin: 0 auto;
     text-align: center;

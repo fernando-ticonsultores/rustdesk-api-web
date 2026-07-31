@@ -3,9 +3,9 @@
           class="menus"
           :collapse="isCollapse"
           :default-active="activeIndex"
-          background-color="#042351"
+          background-color="#708CCE"
           text-color="#fff"
-          active-text-color="#CC865D"
+          active-text-color="#D2D9EE"
           router
   >
     <menu-item v-for="(route,index) in routes" :key="route.name" :route="route"></menu-item>

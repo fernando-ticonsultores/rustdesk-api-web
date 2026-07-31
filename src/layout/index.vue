@@ -46,7 +46,7 @@
 
 <style lang="scss" scoped>
 .app-header {
-  background: linear-gradient(90deg, #C70B00 0%, #d4332a 50%, #C70B00 100%);
+  background: linear-gradient(90deg, #A0B3DD 0%, #b8c7e8 50%, #A0B3DD 100%);
   color: var(--basicWhite);
   display: flex;
   height: 50px;
