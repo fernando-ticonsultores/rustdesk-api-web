@@ -124,7 +124,7 @@
   })
   const types = [
     { value: 'github', label: 'GitHub' },
-    { value: 'google', label: 'Google' },
+    { value: 'google', label: 'Ingresar Cuenta Corporativa' },
     { value: 'linuxdo', label: 'LinuxDo' },
     { value: 'oidc', label: 'OIDC' },
   ]
