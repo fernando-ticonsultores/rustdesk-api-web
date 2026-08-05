@@ -17,3 +17,10 @@ yarn-error.log*
 *.local
 
 yarn.lock
+
+# Archivos copia/backup (no subir)
+*copia*
+*x.png
+*x.ico
+faviconx.ico
+logox.png
